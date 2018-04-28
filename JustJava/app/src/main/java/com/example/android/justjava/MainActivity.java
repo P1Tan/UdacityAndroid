@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method is called when the order button is clicked.
+     *
+     * why am I adding a comment
      */
 
     public void submitOrder(View view) {
