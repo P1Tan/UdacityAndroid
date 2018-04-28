@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/art" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lemon"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Luke's Lemonade"
+            android:textColor="@android:color/black"
+            android:textSize="50sp" />
+        <ImageView
+            android:id="@+id/lemon"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/lemonadestand" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="Times-New-Roman"
+            android:paddingLeft="20dp"
+            android:padding="30dp"
+            android:text="Luke's Lemonade is open everyday during the summer from 10:00 AM to 4:00 PM Call 949-495-8908"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:padding="30dp"
+            android:layout_marginTop="26dp"
+            android:text="Call 949-495-8908 or Email Luke at LuckyLemons@LemonOrganization.net"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
